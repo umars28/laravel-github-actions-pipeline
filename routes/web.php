@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/staging', function() {
     return "THIS ONE PRODUCTION";
 });
+
+Route::get('/dev', function() {
+    return "ADD BRANCH DEV";
+});
