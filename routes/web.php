@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/staging', function() {
-    return "THIS ONE STAGING";
+Route::get('/dev', function() {
+    return "ADD BRANCH DEV";
 });
