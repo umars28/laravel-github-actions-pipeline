@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/staging', function() {
-    return "STAGING";
+    return "THIS ONE PRODUCTION";
 });
