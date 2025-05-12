@@ -32,7 +32,6 @@ jobs:
   deploy:
     name: 🚀 FTP CD (Deploy)
     runs-on: ubuntu-latest
-    needs: test
 
     if: github.event_name == 'push'
 
